@@ -1,0 +1,18 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "A setup for a NodeJS typescript project",
+  "main": "dist/app.js",
+  "author": "Jose Jorge Rodriguez",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.13.0",
+    "eslint-config-google": "^0.14.0",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  }
+}
